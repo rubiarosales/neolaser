@@ -1,75 +1,19 @@
 <div class="site-section">
         <div class="container">
           <div class="row">
+            {{#each servicios}}
             <div class="col-lg-6 mb-4">
               <a href="#" class="d-flex service-2">
                 <div class="icon-wrap">
-                  <span class="flaticon-acupuncture"></span>
+                  <span class="{{image}}"></span>
                 </div>
                 <div class="contents">
-                  <h3>Lorem ipsum dolor</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!</p>
+                  <h3>{{nombre}}</h3>
+                  <p>{{texto}}</p>
                 </div>
               </a>
             </div>
-            <div class="col-lg-6 mb-4">
-              <a href="#" class="d-flex service-2">
-                <div class="icon-wrap">
-                  <span class="flaticon-acupuncture-1"></span>
-                </div>
-                <div class="contents">
-                  <h3>Adipisicing Elit</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!</p>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-6 mb-4">
-              <a href="#" class="d-flex service-2">
-                <div class="icon-wrap">
-                  <span class="flaticon-therapy"></span>
-                </div>
-                <div class="contents">
-                  <h3>Eveniet Nostrum Omnis</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!</p>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-6 mb-4">
-              <a href="#" class="d-flex service-2">
-                <div class="icon-wrap">
-                  <span class="flaticon-herbal"></span>
-                </div>
-                <div class="contents">
-                  <h3>Officia Minus</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!</p>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-6 mb-4">
-              <a href="#" class="d-flex service-2">
-                <div class="icon-wrap">
-                  <span class="flaticon-lithotherapy"></span>
-                </div>
-                <div class="contents">
-                  <h3>Eveniet Nostrum Omnis</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!</p>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-6 mb-4">
-              <a href="#" class="d-flex service-2">
-                <div class="icon-wrap">
-                  <span class="flaticon-acupuncture-2"></span>
-                </div>
-                <div class="contents">
-                  <h3>Officia Minus</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!</p>
-                </div>
-              </a>
-            </div>
-
-          </div>
+            
+            {{/each}}
         </div>
-      </div>
+</div>

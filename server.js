@@ -2,17 +2,20 @@ const express = require('express')
 const app = express()
 const port = 3000
 var hbs = require('hbs');
+const servicios = require ('./data/service.json');
 
 app.get('/', (req, res) => {
     res.render('index',{
-        titulo: "Neolaser"
+        titulo: "Neolaser",
+        servicios: servicios.servicios,
+        entradas: servicios.post
     })
 })
 
 app.get('/nosotros', (req, res) => {
   res.render('about',{
       titulo: "Neolaser",
-      nombre: "Nosotros"
+      nombre: "Sobre Nosotros"
   })
 })
 
@@ -26,14 +29,16 @@ app.get('/contacto', (req, res) => {
 app.get('/servicios', (req, res) => {
   res.render('services',{
       titulo: "Neolaser",
-      nombre: "Servicios"
+      nombre: "Servicios",
+      servicios: servicios.servicios
   })
 })
 
 app.get('/blog', (req, res) => {
   res.render('blog',{
       titulo: "Neolaser",
-      nombre: "Blog"
+      nombre: "Blog",
+      entradas: servicios.post
   })
 })
 

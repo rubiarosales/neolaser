@@ -1,0 +1,81 @@
+
+{"servicios":
+[
+    {
+    "nombre": "Lorem ipsum dolor888",
+    "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
+    "image": "flaticon-acupuncture"
+},
+{
+    "nombre": "Adipisicing Elit",
+    "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
+    "image": "flaticon-acupuncture-1"
+},
+{
+    "nombre": "Eveniet Nostrum Omnis",
+    "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
+    "image": "flaticon-therapy"
+},
+{
+    "nombre": "Officia Minus",
+    "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
+    "image": "flaticon-herbal"
+},
+{
+    "nombre": "Eveniet Nostrum Omnis",
+    "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
+    "image": "flaticon-lithotherapy"
+},
+{
+    "nombre": "Officia Minus",
+    "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
+    "image": "flaticon-acupuncture-2"
+}
+],
+"post":
+[
+    {
+        "id": "0",
+        "image":"images/img_1.jpg",
+        "fecha": "July 17, 2019 ",
+        "nombre": "Natural Healing For The Body",
+        "contenido":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
+},
+{
+    "id": "1",
+    "image":"images/img_1.jpg",
+    "fecha": "July 17, 2019 ",
+    "nombre": "Natural Healing For The Body",
+    "contenido":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
+},
+{
+    "id": "2",
+    "image":"images/img_1.jpg",
+    "fecha": "July 17, 2019 ",
+    "nombre": "Natural Healing For The Body",
+    "contenido":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
+},
+{
+    "id": "3",
+    "image":"images/img_1.jpg",
+    "fecha": "July 17, 2019 ",
+    "nombre": "Natural Healing For The Body",
+    "contenido":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
+},
+{
+    "id": "4",
+    "image":"images/img_1.jpg",
+    "fecha": "July 17, 2019 ",
+    "nombre": "Natural Healing For The Body",
+    "contenido":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
+},
+{
+    "id": "5",
+    "image":"images/img_1.jpg",
+    "fecha": "July 17, 2019 ",
+    "nombre": "Natural Healing For The Body",
+    "contenido":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
+}
+]
+}
+
