@@ -40,42 +40,42 @@
     "post": [
         {
             "id": "0",
-            "image": "images/img_1.jpg",
+            "image": "../../images/img_1.jpg",
             "fecha": "July 17, 2019 ",
             "nombre": "Natural Healing For The Body",
             "contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
         },
         {
             "id": "1",
-            "image": "images/img_1.jpg",
+            "image": "../../images/img_1.jpg",
             "fecha": "July 17, 2019 ",
             "nombre": "Natural Healing For The Body",
             "contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
         },
         {
             "id": "2",
-            "image": "images/img_1.jpg",
+            "image": "../../images/img_1.jpg",
             "fecha": "July 17, 2019 ",
             "nombre": "Natural Healing For The Body",
             "contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
         },
         {
             "id": "3",
-            "image": "images/img_1.jpg",
+            "image": "../../images/img_1.jpg",
             "fecha": "July 17, 2019 ",
             "nombre": "Natural Healing For The Body",
             "contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
         },
         {
             "id": "4",
-            "image": "images/img_1.jpg",
+            "image": "../../images/img_1.jpg",
             "fecha": "July 17, 2019 ",
             "nombre": "Natural Healing For The Body",
             "contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
         },
         {
             "id": "5",
-            "image": "images/img_1.jpg",
+            "image": "../../images/img_1.jpg",
             "fecha": "July 17, 2019 ",
             "nombre": "Natural Healing For The Body",
             "contenido": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.fin"
