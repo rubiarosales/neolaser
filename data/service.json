@@ -2,39 +2,52 @@
     "servicios": [
         {
             "id": "0",
-            "nombre": "Lorem ipsum dolor888",
-            "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
-            "image": "flaticon-acupuncture"
+            "nombre": "Promo 1: Hombres",
+            "texto": "Pecho, Abdomen, Pelvis",
+            "image": "flaticon-acupuncture",
+            "precio": "2500"
         },
         {
             "id": "1",
-            "nombre": "Adipisicing Elit",
-            "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
-            "image": "flaticon-acupuncture-1"
+            "nombre": "Promo 2: Hombres",
+            "texto": "Piernas completas,Pecho, abdomen",
+            "image": "flaticon-acupuncture-1",
+            "precio": "3600"
         },
         {
             "id": "2",
-            "nombre": "Eveniet Nostrum Omnis",
-            "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
-            "image": "flaticon-therapy"
+            "nombre": "Promo 3: Hombres",
+            "texto": "Espalda completa,Pecho, abdomen",
+            "image": "flaticon-therapy",
+            "precio": "3600"
         },
         {
             "id": "3",
-            "nombre": "Officia Minus",
-            "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
-            "image": "flaticon-herbal"
+            "nombre": "Promo 4: Hombres",
+            "texto": "Brazos completos, axilas",
+            "image": "flaticon-herbal",
+            "precio": "1900"
         },
         {
             "id": "4",
-            "nombre": "Eveniet Nostrum Omnis",
-            "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
-            "image": "flaticon-lithotherapy"
+            "nombre": "Promo 5: Mujeres",
+            "texto": "Axilas, Pelvis completa, Tira de cola, Piernas completas",
+            "image": "flaticon-lithotherapy",
+            "precio": "3600"
         },
         {
             "id": "5",
-            "nombre": "Officia Minus",
-            "texto": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro culpa, eveniet nostrum omnis aliquid incidunt. Officia minus quae quasi earum!",
-            "image": "flaticon-acupuncture-2"
+            "nombre": "Promo 6: Mujeres",
+            "texto": "Axilas, Pelvis completa, Tira de cola, media pierna",
+            "image": "flaticon-acupuncture-2",
+            "precio": "3100"
+        },
+        {
+            "id": "6",
+            "nombre": "Promo 7: Mujeres",
+            "texto": "Axilas, Pelvis completa, Tira de cola",
+            "image": "flaticon-acupuncture-2",
+            "precio": "2100"
         }
     ],
     "post": [

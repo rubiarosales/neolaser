@@ -2,6 +2,14 @@
 <html lang="es">
 <head>
   {{> head}}
+  <style>
+    .error{
+      background: red;
+      color: white;
+      padding: 10px;
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -16,14 +24,14 @@
             <form action="#" method="post">
               <div class="form-group row">
                 <div class="col-md-6 mb-4 mb-lg-0">
-                  <input type="text" class="form-control" placeholder="Email">
+                  <input type="text" class="form-control usuario" placeholder="Email">
                 </div>
 
               </div>
 
               <div class="form-group row">
                 <div class="col-md-6">
-                  <input type="password" class="form-control" placeholder="Password">
+                  <input type="password" class="form-control password" placeholder="Password">
                 </div>
               </div>
 
@@ -32,11 +40,41 @@
                   <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Ingresar">
                 </div>
               </div>
+              <div class="form-group row error">
+                <div class="col-md-6 mr-auto">
+                  <p>Verifique los datos ingresados</p>
+                </div>
+              </div>
             </form>
           </div>
 
     {{> footer}}
   </div>
+  <script>
+  const usuario = "admin@test.com";
+  const password = "12345";
+  
+  const btn = document.querySelector(".btn");
+
+
+
+
+  btn.addEventListener("click", e =>{
+    e.preventDefault();
+    const valorUsuario = document.querySelector(".usuario").value;
+  const valorPassword = document.querySelector(".password").value;
+
+  const error =document.querySelector(".error");
+  
+    if (usuario == valorUsuario && password==valorPassword){
+      window.location.href="/admin";
+    } else{
+      error.style.display ="block";
+    }
+  })
+
+
+</script>
   {{> scripts}}
 
 </body>
