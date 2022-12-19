@@ -1,25 +1,105 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   {{> head}}
 </head>
 
 <body>
+
+
   <div class="site-wrap" id="home-section">
 
     {{> nav}}
 
     {{!-- HERO --}}
-{{> hero}}
-          
-          <div class="col-lg-8 mb-5">
-            Estás en Admin
-          </div>
+    {{> hero}}
 
-          
-    {{> footer}}
-  </div>
-  {{> scripts}}
+    {{> servicios}}
+
+    <div class="site-section">
+      <div class="container col-lg-6">
+        <div class="row text-center  mx-auto">
+          {{#each servicios}}
+          <div class="col-9 col-lg-8 mb-4">
+            <a href="#" class="d-flex  service-2 ">
+              <div class="icon-wrap ">
+                <span class="{{image}}"></span>
+              </div>
+              <div class="contents">
+                <h3>{{nombre}}</h3>
+                <p>{{texto}}</p>
+                <p>{{dolarAPeso precio}}</p>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-3 col-lg-4 mb-4">
+            <p><a href="/editar/{{id}}" class="btn btn-primary">Editar</a></p>
+            <p><a href="/borrar/{{id}}" class="btn btn-primary">Borrar</a></p>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading"><strong>Novedades &amp; Tips</strong></h2>
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          {{#each entradas}}
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html" class="mb-3 d-block">
+                <img src="{{image}}" alt="Image" class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+
+                <span class="meta d-inline-block">{{fecha}}<span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <h2><a href="single.html">{{nombre}}</a></h2>
+
+                <p>{{contenido}}</p>
+              </div>
+
+              <div class="row justify-content-center text-center">
+                <p class="col-4"><a href="/editar/{{id}}" class="btn btn-primary">Editar</a></p>
+                <p class="col-4"><a href="/borrar/{{id}}" class="btn btn-primary">Borrar</a></p>
+              </div>
+            </div>
+          </div>
+          {{/each}}
+
+
+
+        </div>
+
+        <div class="row justify-content-center text-center m-3">
+          <div class="col-lg-5">
+            <div class="custom-pagination">
+              <a href="#">1</a>
+              <span>2</span>
+              <a href="#">3</a>
+              <a href="#">4</a>
+              <a href="#">5</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{!-- CONTACTO DOS --}}
+      {{> contact2}}
+
+
+      {{> footer}}
+
+    </div>
+
+    {{> scripts}}
 
 </body>
 

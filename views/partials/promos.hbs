@@ -2,7 +2,7 @@
         <div class="container">
           <div class="row">
             {{#each servicios}}
-            <div class="col-11 col-lg-6 mb-4">
+            <div class="col-lg-6 mb-4">
               <a href="#" class="d-flex service-2">
                 <div class="icon-wrap">
                   <span class="{{image}}"></span>
@@ -10,15 +10,12 @@
                 <div class="contents">
                   <h3>{{nombre}}</h3>
                   <p>{{texto}}</p>
-                  <p>$ {{precio}}</p>
+                  <p>{{dolarAPeso precio}}</p>
                 </div>
               </a>
               
             </div>
-            <div class="col-1 col-lg-6 mb-4">
-              <p><a href="/editar/{{id}}" class="btn btn-primary">Editar</a></p>
-              <p><a href="/borrar/{{id}}" class="btn btn-primary">Borrar</a></p>
-            </div>
+
             
             {{/each}}
         </div>
